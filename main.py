@@ -1,6 +1,7 @@
 def main():
     print("Running...")
     word = input("Input text to reverse: ").lower()
+    print("Reversing...")
     reverse(word)
     unique(word)
     return
@@ -10,7 +11,7 @@ def reverse(word):
 
 def unique(word):
     chars = {*word}
-    print(len(chars))
+    print("Number of unique characters: " + str(len(chars)))
 
 if __name__ == "__main__":
     main()
