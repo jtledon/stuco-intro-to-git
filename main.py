@@ -1,6 +1,6 @@
 def main():
     print("Running...")
-    word = input("Input text to reverse: ")
+    word = input("Input text to reverse: ").lower()
     reverse(word)
     return
 
